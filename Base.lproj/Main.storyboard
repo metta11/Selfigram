@@ -49,6 +49,17 @@
                     <view key="view" contentMode="scaleToFill" id="wE6-kQ-4s5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Dsb-1T-7Nt">
+                                <rect key="frame" x="67" y="110" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghH-e3-WtH">
+                                <rect key="frame" x="54" y="253" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Camera"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3NF-kh-ZoQ"/>
@@ -124,7 +135,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zhY-7G-5p5" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="Profile" id="1zr-fw-lkb"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="tVO-cm-hlX">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tVO-cm-hlX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.95195287466049194" green="0.82813906669616699" blue="0.95792919397354126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -148,7 +159,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SSX-ZA-HJz" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="News Feed" image="NewsFeed" id="XsH-sr-54e"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="gF7-If-SQh">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gF7-If-SQh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.94371110200881958" green="0.80858808755874634" blue="0.95086747407913208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -172,7 +183,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LcJ-sG-QS6" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Activities" image="Actvities" id="Olb-CT-JlR"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0hb-zX-rhZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0hb-zX-rhZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.93562847375869751" green="0.79675769805908203" blue="0.95169943571090698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -195,5 +206,6 @@
         <image name="Actvities" width="16" height="16"/>
         <image name="NewsFeed" width="25" height="25"/>
         <image name="Profile" width="25" height="25"/>
+        <image name="placeholder" width="256" height="256"/>
     </resources>
 </document>
